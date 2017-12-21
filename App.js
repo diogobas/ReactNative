@@ -1,15 +1,20 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react';
+import { StyleSheet, View } from 'react-native';
+import Playground from './components/playground/Playground';
+import PizzaTranslator from './components/playground/PizzaTranslator';
+import Touchables from './components/playground/Touchables';
+import Scroll from './components/playground/Scroll';
+import FlatListBasics from './components/playground/FlatListBasics';
+import SectionListBasics from './components/playground/SectionListBasics';
+import Movies from './components/playground/Movies';
 
 export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
-      </View>
-    );
+    render() {
+        return (
+            <View style={styles.container}>
+                <PizzaTranslator />
+            </View>
+        );
   }
 }
 
