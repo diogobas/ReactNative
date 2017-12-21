@@ -2,6 +2,6 @@
 
 https://hellokoding.com/todo-app-with-react-native/
 
-npm install
+yarn install
 
 npm start
